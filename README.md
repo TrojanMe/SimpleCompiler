@@ -8,14 +8,14 @@
 The purpose of this course is to construct a very simple compiler. In the first step to do so, there is an implementation of symbol-table. 
 A symbol-table is a data structure maintained by compilers in order to store information about the occurrence of various entities such as identifiers, objects, function names etc. Information of different entities may include type, value, scope etc. At the first phase,a symbol-table based on hashing where collision is resolved by chaining is constructed. Fig 1 illustrates a sample symbol table.
 
-![N|Solid](https://lh6.googleusercontent.com/mJivK_d9M9bVo39s4CNlWaBU6KSld5chrOno3JR_JLg3VL6JW61QCMsKq56vfq0bVVk5grx4tsMUW2Y=w1366-h589)
+![N|Solid](http://i.imgur.com/cjlRGQm.png)
 
 ### 2. Tasks
 
 Following two classes are implemented:
 
 - SymbolInfo: This class contains the information regarding a symbol faced in the source program. In the first step ,it is limited to only two members. One is for the Name of the symbol and other is the Type of the symbol. This class may extend as we progress to develop the compiler.
- - SymbolTable: This class implements the hash table. Array of pointers and a hashFunction are used. 
+- SymbolTable: This class implements the hash table. Array of pointers and a hashFunction are used. 
   
 Then the following four functions are implemented :
 
@@ -25,7 +25,7 @@ Then the following four functions are implemented :
 *	Print: Print the whole symbol table in the console.
 
 
-![N|Solid](https://lh5.googleusercontent.com/gdWsSTAzpDwgmHPPxk1joLqjyadVXLba3ZnmRvd4LNItIW2P9p_cr1johPXOjeGscN2Gkx-uBcN0rxs=w1366-h589)	
+![N|Solid](http://i.imgur.com/IoIRsir.png)	
 
 
 ### 3. Input
