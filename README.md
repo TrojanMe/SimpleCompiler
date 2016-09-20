@@ -39,7 +39,7 @@ This instructions listed below were followed while implementing the task as inst
 *	Implemented using C++ programming language
 *	Hard coding was avoided
 *	'Dynamic memory allocation' was used
-*	Input was taken from file (input.text) 
+*	Input was taken from file (input.txt) 
 
 ### ** Extras :
 
